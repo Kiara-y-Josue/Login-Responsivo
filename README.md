@@ -4,7 +4,7 @@
 .- Kiara Intriago y Josue Triana
 
 ### Capturas
-<img src="captura1.png" width="250" height="400">
+<img src="captura1.png" width="200" height="400">
 ----------<br>
 ----------
 <img src="captura2.png" width="250" height="400">
