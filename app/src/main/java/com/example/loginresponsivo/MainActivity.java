@@ -2,6 +2,7 @@ package com.example.loginresponsivo;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
@@ -35,8 +36,13 @@ public class MainActivity extends AppCompatActivity
     public void clickLogin(View view){
 
         Map<String, String> datos = new HashMap<String, String>();
+
+        EditText txtCedula = findViewById(R.id.txtCedula);
+        String usr= txtCedula.getText().toString();
+        EditText txtPass = findViewById(R.id.txtClave);
+        String pass = txtPass.getText().toString();
         WebService ws= new WebService(
-                "https://revistas.uteq.edu.ec/ws/login.php?usr=",
+                "https://revistas.uteq.edu.ec/ws/login.php?"+ "usr=" + usr + "&pass=" + pass,
                 datos, MainActivity.this, MainActivity.this);
         ws.execute("GET");
 

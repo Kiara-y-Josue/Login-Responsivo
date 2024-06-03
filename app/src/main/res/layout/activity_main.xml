@@ -46,10 +46,10 @@
                 app:startIconDrawable="@drawable/user2">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/txtcedula"
+                    android:id="@+id/txtCedula"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="number"
+                    android:inputType="text"
                     android:maxLength="10" />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -68,7 +68,7 @@
                 app:startIconDrawable="@drawable/clave">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/txtclave"
+                    android:id="@+id/txtClave"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="text|textPassword"
