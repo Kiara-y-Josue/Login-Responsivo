@@ -17,6 +17,14 @@
 ----------<br>
 ----------
 <img src="captura6.png" width="200" height="400">
+----------<br>
+----------
+<img src="captura7.png" width="200" height="400">
+----------<br>
+----------
+<img src="capturaf2.png" width="200" height="400">
+
+
 
 
 
