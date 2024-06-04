@@ -19,6 +19,9 @@
 <img src="captura6.png" width="200" height="400">
 ----------<br>
 ----------
+<img src="captura10.png" width="200" height="400">
+----------<br>
+----------
 <img src="captura7.png" width="200" height="400">
 ----------<br>
 ----------
